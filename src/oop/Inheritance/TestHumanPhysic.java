@@ -6,6 +6,7 @@ public class TestHumanPhysic {
 		GrandPa gp = new GrandPa();
 		gp.eyeColor();
 		gp.straightHair();
+		//gp.age =34; //The final field(variable) GrandPa.age cannot be assigned
 		
 		
 		Daddy dy = new Daddy();
