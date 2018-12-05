@@ -3,6 +3,24 @@ package oop.Concept.Fundamental;
 public class Wrapper { //Wrapper Class Concept
 
 	public static void main(String[] args) {
+		//conversion String to UPPERCASE
+		
+				/*String comment = "i love java";
+				System.out.println(comment);
+				Wrapper wp = new Wrapper();
+				wp.toString()*/
+				
+				//System.out.println(stName+20);
+				//System.out.println(stName+"  "+20);
+				//int stId = Integer.parseInt(stName);
+				//System.out.println(stId+20);
+				//System.out.println(stId+"         "+20); //explain why?
+				
+		
+		
+		
+		
+		
 		//conversion from String to integer
 		
 		String stName = "100";

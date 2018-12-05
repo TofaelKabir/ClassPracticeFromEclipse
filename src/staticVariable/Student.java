@@ -4,7 +4,7 @@ public class Student {
 	public static int classRoomSize;
 
 	public void setClassRoomSize(int classRoomSize) {
-		this.classRoomSize = classRoomSize;
+		Student.classRoomSize = classRoomSize;
 	}
 	public int getClassRoomSize() {
 		return classRoomSize;
