@@ -16,3 +16,6 @@ public class GrandPa {
 //Single Inheritance: GrandPa -- Daddy
 //MultiLevel Inheritance: GrandPa -- Daddy -- Me -- Son
 //Hierarchical Inheritance: GrandPa -- Daddy, GrandPa -- Uncle, GrandPa -- GrandSon etc.
+
+
+//tofaelKabir

@@ -28,18 +28,23 @@ public class Wrapper { //Wrapper Class Concept
 		System.out.println(stName+20);
 		System.out.println(stName+"  "+20);
 		int stId = Integer.parseInt(stName);
+		System.out.println(stId);
 		System.out.println(stId+20);
 		System.out.println(stId+"         "+20); //explain why?
 		
+		
+		
 		//conversion from String to integer (when not a pure number)
 		
-		String stName2 = "625W";
+		String stName2 = "100W";
 		System.out.println(stName2);
 		System.out.println(stName2+20);
 		System.out.println(stName2+"  "+20);
 		//int stId2 = Integer.parseInt(stName2);
 		//System.out.println(stId2+20); //because parseInt method can't convert non pure integer to String,
 		//System.out.println(stId2+"         "+20); //Thus show run time error , but not compilation error
+		
+		
 		
 		//conversion from String to double
 		
@@ -48,15 +53,17 @@ public class Wrapper { //Wrapper Class Concept
 		System.out.println(stFullName+1.25);
 		System.out.println(stFullName+"  "+1.25);
 		double stGrade = Double.parseDouble(stFullName);
+		System.out.println(stGrade);
 		System.out.println(stGrade+1.36);
 		System.out.println(stGrade+"         "+1.35); //explain why?
 		
 		//conversion from String to character (is not possible, because no method created for that)
 		//there is no method name parserCharacter, because String is a collection of Character 
 		//rather we find a method
+		
 		String name = "Tofael";
 		System.out.println(name);
-		char sex = Character.toUpperCase('n'); 
+		char sex = Character.toUpperCase('m'); 
 		System.out.println(sex);
 		
 		//conversion from String to boolean
