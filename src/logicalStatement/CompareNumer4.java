@@ -11,10 +11,11 @@ public class CompareNumer4 {
 			System.out.println(value1+ "  is smaller than  "+ value2);
 		}else if (value1!=value2){ 
 			System.out.println(value1+"  is not equal to  "+ value2);
-		}else if (value1==value2){ 
+		}else if (value1==value2){ //Equality operator(==)
 			System.out.println(value1+"  is equal to  "+ value2);
 		}
 
 	}
 
 }
+//https://www.geeksforgeeks.org/difference-equals-method-java/
